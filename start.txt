@@ -1,0 +1,23 @@
+1. Learnt the first command to clone a repository
+	git clone <repository-path>
+	
+2. To check the status of the repository
+	git status
+	Lists the untracked, tracked and committed changes on the current branch
+	eg, 
+	$ git status
+		On branch main
+		Your branch is up to date with 'origin/main'.
+
+		nothing to commit, working tree clean
+		
+3. To create a file from git bash 
+	echo "content in double quotes" >> <filename>
+	eg, 
+	$ echo "Learnt the first command to clone a repository" >> start.txt
+
+4. to read the content of a file
+	cat <filename>
+	eg,
+	$ cat start.txt
+
